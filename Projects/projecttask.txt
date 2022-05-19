@@ -1,0 +1,20 @@
+
+
+5 pages:
+ home
+ aboutus
+ contact us
+ services
+ ourhistory
+
+
+
+ .........
+Examples: hotel ,company,construction
+ home: 
+ hr
+links: home 
+ paragrahps
+ images;
+ tables:
+ 

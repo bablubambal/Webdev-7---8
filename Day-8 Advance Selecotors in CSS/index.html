@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selector in CSS</title>
+    <!-- Internal CSS  -->
+    <style>
+         /* Tag Selector  */
+         h3 ,h4,p {
+             color: red; color: blue;
+           
+         font-size: 30px;
+             background-color: blueviolet;
+             background-color: black;
+         }
+         /* Class Selector:  */
+         .cls{
+             color: green;
+         }
+         /* Id Selector  */
+         #id{
+             color: brown;
+             background-color: aquamarine;
+         }
+
+         /*Universal selector:*/
+         *{
+             font-size: 40px;
+             /* background-color: gray; */
+         }
+         body{
+
+         }
+
+         /* Pseudo Selector  */
+         a{
+             font-size: 40px;
+             color: brown;
+             background-color: aqua;
+         }
+         a:hover{
+             font-size: 50px;
+             color: aqua;
+             background-color: brown;
+         }
+
+
+         /* styling for the input  */
+         input{
+             font-size: 30px;
+             border: 2px solid blue;
+         }
+
+         input:focus{
+             color: red;
+             font-size: 25px;
+         }
+         p:hover{
+             color: black;
+             background-color: blue;
+             font-size: larger;
+         }
+         
+
+    </style>
+</head>
+<body>
+    
+    <h2>Selectors in CSS</h2>
+    <hr>
+    <ol>
+        <li>Tag Selector</li>
+        <li>Class Selector</li>
+        <li>ID Selector</li>
+        <li>Universal Selector</li>
+        <li>Pseudo Selector</li>
+    </ol>
+    <hr>
+    <h3>I am heading 3</h3>
+    <h3 class="cls" >I am heading sleected by class slector</h3>
+    <h3 id="id">I am heading sleected by id Selecotr</h3>
+
+
+    <hr>
+    <a href="">Link Google.com</a>
+
+    <input type="text">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt tempore minus ipsam non quam, nostrum quo fugiat nisi voluptatum, ratione, vitae debitis hic sit? Nobis inventore ratione aspernatur ad! Ullam!</p>
+</body>
+</html>

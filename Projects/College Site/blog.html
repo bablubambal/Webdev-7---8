@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Wesite Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+     <h1>Our Certificates & Online Programs for 2022</h1>
+        
+    </section>
+    
+    <!-- blog page content  -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Certificates & Online Programs For 2022</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aut consectetur iure molestiae temporibus omnis ipsam tempora dolorem. Vero voluptate sint quidem fugiat ut consequatur. Autem adipisci impedit vero modi.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quia facere, corrupti fugit atque natus quasi odio eum ratione iure maiores et obcaecati. Illo voluptates ipsum, eaque omnis consequuntur qui unde assumenda minus sunt fuga sit aliquid odit quo labore nobis similique ex vitae debitis? Incidunt, excepturi culpa. Porro reprehenderit, recusandae sunt eveniet nam placeat.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, beatae tempora sunt dolorem alias quae! Nesciunt ex officiis vel sunt cupiditate repellat laborum ratione dolorum amet numquam adipisci alias, temporibus aliquid recusandae consectetur esse nemo molestiae enim dolore, est maiores perspiciatis voluptatibus quaerat. Dicta sint, necessitatibus modi ullam quo et ea unde commodi! Similique, officia.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" name="" placeholder="Enter Name" id="">
+                    <input type="email" name="" placeholder="Enter Email" id="">
+                    <textarea  rows="5"></textarea>
+                    <button type="submit" class="hero-btn red-btn" >POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Analytics</span>
+                <span>11</span>
+            </div>
+            <div>
+                <span>Full Stack</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>Artificial Intelligance</span>
+                <span>9</span>
+            </div>
+        </div>
+    </div>
+</section>
+   
+
+
+
+
+
+
+
+<!-- Footer  -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.  <br> repellendus exercitationem esse? Optio, error.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Bablu Bambal </p>
+</section>
+
+
+
+    <script>
+
+        // lets adds javascipt for hide and show menu 
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0px"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
